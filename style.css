@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main,
+#container{
+    width: 750px;
+    height: 400px;
+}
+
+main{
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#container{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,87 @@
+#monitor{
+    background-color: white;
+    border: 1px solid black;
+    margin: 35px 25px;
+    width: calc(100% / 8 * 5);
+}
+
+#cabecalho{
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cabecalho input{
+    border: none;
+    cursor: auto;
+}
+
+#cabecalho img{
+    width: 28px;
+    margin-right: 10px;
+}
+
+#centro{
+    height: calc(100% / 10 * 8);
+    text-align: center;
+}
+
+#exibir{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#img{
+    margin-right: 20px;
+}
+
+#exibir > input{
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    cursor: auto;
+}
+
+#centro > h1{
+    margin: 10px 0px;
+}
+
+#centro > p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#mostrar{
+    display: none;
+    height: calc(100% / 8 * 7);
+}
+
+#retorno{
+    height: calc(100% / 8 * 1);
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#footer{
+    text-align: center;
+    cursor: pointer;
+}
+
+#footer button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#footer a{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}

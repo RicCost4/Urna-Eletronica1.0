@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Brasao.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssMonitor.css">
+    <link rel="stylesheet" href="cssTeclado.css">
+    <title>Sistema de Votação</title>
+</head>
+<body>
+    <audio src="som/somUrna.mp3"></audio>
+    <main>
+        <div id="container">
+            <div id="monitor">
+                <div id="cabecalho">
+                    <input type="text" id="time" readonly=“true”> <img src="img/Bateria.png" alt="" srcset="">
+                </div>
+                <div id="centro">
+                    <div id="exibir">
+                        <img src="img/photo-perfil.jpg" id="img" alt="Foto do Candidato">
+                        <input type="text" id="n1" maxlength="1" readonly=“true”>
+                        <input type="text" id="n2" maxlength="1" readonly=“true”>
+                    </div>
+                    <div id="mostrar"></div>
+                    <p id="retorno"></p>
+                </div>
+                <div id="footer">Sistema Eleitoral do Richard - Finalizar Eleição</div>
+            </div>
+            <div id="teclado">
+                <div id="titulo">
+                    <img src="img/Brasao.png" alt="" srcset="">
+                    <h2>Justiça Eleitoral do Richard</h2>
+                </div>
+                <div id="btn">
+                    <div class="btns">
+                        <button id="um" value="1">1</button>
+                        <button id="dois" value="2">2</button>
+                        <button id="tres" value="3">3</button>
+                    </div>
+                    <div class="btns">
+                        <button id="quatro" value="4">4</button>
+                        <button id="cinco" value="5">5</button>
+                        <button id="seis" value="6">6</button>
+                    </div>
+                    <div class="btns">
+                        <button id="sete" value="7">7</button>
+                        <button id="oito" value="8">8</button>
+                        <button id="nove" value="9">9</button>
+                    </div>
+                    <div class="btns">
+                        <button id="zero" value="0">0</button>
+                    </div>
+                    <div class="btns" id="crud">
+                        <button id="branco">BRANCO</button>
+                        <button id="corrige">CORRIGE</button>
+                        <button id="confirma">CONFIRMA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="listaCadidato">
+            <a href="https://tre-ro.jusbrasil.com.br/noticias/2395908/entenda-qual-a-diferenca-entre-votos-validos-nulos-e-brancos" target="_blank">Saiba+</a>
+            <h1>Lista de Candidatos</h1>
+        </div>
+    </main>
+    <script src="relogio.js"></script>
+    <script src="exibirTeclas.js"></script>
+    <script type="module" src="crud.js"></script>
+    <script type="module" src="listaCandidatos.js"></script>
+    <script type="module" src="confirma.js"></script>
+</body>
+</html>

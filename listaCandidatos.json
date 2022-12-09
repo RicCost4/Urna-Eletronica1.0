@@ -1,0 +1,39 @@
+{
+    "listaDeCandidato":[
+        {
+            "nome": "Carlos Henrique",
+            "numero": "26",
+            "Partido": "Batista",
+            "foto": "num26.png",
+            "Votos":[]
+        },
+        {
+            "nome": "Aldemar Amorim",
+            "numero": "74",
+            "Partido": "Geraldo",
+            "foto": "num74.png",
+            "Votos":[]
+        },
+        {
+            "nome": "Antônia Coelho",
+            "numero": "15",
+            "Partido": "Belmiro",
+            "foto": "num15.png",
+            "Votos":[]
+        },
+        {
+            "nome": "Carlos Luis",
+            "numero": "52",
+            "Partido": "Bastos",
+            "foto": "num52.png",
+            "Votos":[]
+        },
+        {
+            "nome": "Erica Fonseca",
+            "numero": "55",
+            "Partido": "Esteves",
+            "foto": "num55.png",
+            "Votos":[]
+        }
+    ]
+}

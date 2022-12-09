@@ -1,0 +1,83 @@
+#teclado{
+    width: calc(100% / 8 * 3);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#titulo{
+    height: calc(100% / 5 * 1);
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#titulo img{
+    height: 100%;
+    margin: 0px 15px;
+}
+
+#titulo h2{
+    margin: 10px 5px 10px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btn{
+    background-color: rgba(0, 0, 0, 0.700);
+    border: 2px solid black;
+    height: calc(100% / 5 * 4);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns{
+    height: calc(100% / 5 * 1);
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0px 0px;
+}
+
+.btns button{
+    width: 50px;
+    height: 44px;
+    margin: 0px 5px;
+    background-color: gray;
+    box-shadow: -4px 4px 5px black;
+    color: white;
+}
+
+.btns button:hover{
+    background-color: lightgray;
+    box-shadow: none;
+}
+
+#crud{
+    margin: 10px 5px;
+}
+
+#crud button{
+    width: 87px;
+    height: 43px;
+    margin: 0px 6px;
+}
+
+#branco{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#corrige{
+    background-color: red;
+    color: black;
+    border: none;
+}
+
+#confirma{
+    background-color: green;
+    color: black;
+    border: none;
+}
